@@ -1,0 +1,183 @@
+
+.prayer-page {
+  background-color: #00796b;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.prayer-container {
+  width: 60%;
+  background: #ecc5ae;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #00796b;
+  margin: 4rem auto;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #000;
+}
+
+.clock-container {
+  margin: 15px 0;
+  font-size: 18px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.clock-container p {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.clock {
+  font-size: 24px;
+  font-weight: bold;
+  background: #00897b;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  color: #fff;
+}
+
+.country-select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #333;
+  border: 2px solid #00897b;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.country-select:hover {
+  background: #f0f0f0;
+  border-color: #004d40;
+}
+
+.country-select:focus {
+  box-shadow: 0 0 10px rgba(0, 121, 107, 0.7);
+}
+
+.prayer-times {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.prayer-time {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #0f1111;
+}
+
+.prayer-name {
+  font-weight: bold;
+}
+
+.prayer-time-value {
+  background: #00796b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* ✅✅✅ **تحسين التجاوب مع الشاشات الصغيرة** ✅✅✅ */
+
+/* 📱 **شاشات التابلت (أقل من 992px)** */
+@media (max-width: 992px) {
+  .prayer-container {
+    width: 80%; /* ✅ توسيع العرض ليكون مناسب */
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px; /* ✅ تصغير العنوان */
+  }
+
+  .clock {
+    font-size: 22px;
+    padding: 8px 16px;
+  }
+
+  .prayer-time {
+    font-size: 16px; /* ✅ تصغير الخط قليلاً */
+  }
+}
+
+/* 📱 **شاشات الموبايل (أقل من 768px)** */
+@media (max-width: 768px) {
+  .prayer-container {
+    width: 90%; /* ✅ تمديد المحتوى ليشغل أغلب الشاشة */
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .clock {
+    font-size: 20px;
+    padding: 7px 14px;
+  }
+
+  .prayer-time {
+    font-size: 15px;
+  }
+}
+
+/* 📱 **شاشات الموبايل الصغيرة جدًا (أقل من 480px)** */
+@media (max-width: 480px) {
+  .prayer-container {
+    width: 95%; /* ✅ تمديد العرض بالكامل */
+    padding: 10px;
+    margin: 2rem auto;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .clock {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+
+  .prayer-time {
+    font-size: 14px;
+    flex-direction: column; /* ✅ جعل كل صلاة تأخذ سطر كامل */
+    text-align: center;
+    padding: 8px;
+  }
+
+  .prayer-time-value {
+    margin-top: 5px;
+    display: inline-block;
+    padding: 5px 8px;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Reem+Kufi:wght@400..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #0B3D2E; 
+  --secondary-color: #E5B87D; 
+  --light-bg: #F8F9FA; 
+  --text-color: #FFFFFF;
+}
+
+body {
+  background-color: var(--light-bg);
+  color: var(--primary-color);
+  font-family: "Amiri", serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.nav-links a {
+  color: var(--text-color);
+}
+
+.nav-links a:hover {
+  color: var(--secondary-color);
+}
+
+button {
+  background-color: #ecd9bd;
+  color: var(--primary-color);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+h1, h2, h3 {
+  font-family: "Reem Kufi", sans-serif;
+}
+

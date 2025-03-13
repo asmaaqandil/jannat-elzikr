@@ -1,0 +1,98 @@
+.quize-cont {
+  background: #113a1d;
+  padding: 80px 0px;
+}
+
+.quiz-container {
+  text-align: center;
+  background-color: #daac79;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.question-card {
+  background-color: rgb(248, 200, 154);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question {
+  font-size: 1.5rem;
+  color: #144e25;
+  margin-bottom: 15px;
+}
+
+.timer {
+  font-size: 1.2rem;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-btn {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #1b5327;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-btn:hover {
+  background-color: #9c522f;
+}
+
+.correct {
+  background-color: green !important;
+}
+
+.wrong {
+  background-color: red !important;
+}
+
+.feedback {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.next-btn {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #0d2e12;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #463622;
+}
+
+.game-over {
+  font-size: 1.5rem;
+  color: #07422a;
+}
+

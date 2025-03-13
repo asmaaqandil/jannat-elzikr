@@ -1,0 +1,79 @@
+.image-gallery {
+  text-align: center;
+
+  padding: 4rem;
+}
+.image-gallery h2{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.prayers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); 
+  gap: 20px;
+  justify-items: center;
+}
+
+.prayer-item {
+  width: 100%;
+  max-width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.prayer-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prayer-item:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+/* 📱 **تصميم للشاشات الصغيرة** */
+@media (max-width: 768px) {
+  .image-gallery {
+    padding: 2rem;
+  }
+
+  .image-gallery h2 {
+    font-size: 32px;
+  }
+
+  .prayers-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 15px;
+  }
+
+  .prayer-item {
+    max-width: 180px;
+  }
+}
+
+/* 📱 **تصميم للموبايل (شاشات أصغر من 480px)** */
+@media (max-width: 480px) {
+  .image-gallery {
+    padding: 1.5rem;
+  }
+
+  .image-gallery h2 {
+    font-size: 28px;
+  }
+
+  .prayers-grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); 
+    gap: 10px;
+  }
+
+  .prayer-item {
+    max-width: 150px;
+  }
+}
+

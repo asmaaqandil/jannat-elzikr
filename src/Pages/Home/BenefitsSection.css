@@ -1,0 +1,127 @@
+.benefits-section {
+    text-align: center;
+    padding: 50px 20px;
+  
+    background:#0B3D2E  ;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #f3f1f1;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .benefits-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .benefit-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    position: relative;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(145deg, #d4af37, #b8860b);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .circle:hover {
+    transform: scale(1.1);
+  }
+  
+  .decorative-line {
+    width: 3px;
+    height: 40px;
+    background: #b8860b;
+    margin: 15px 0;
+  }
+  
+  .benefit-card {
+    width: 230px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-10px);
+    background: #e7dbb2;
+  }
+  
+  .benefit-icon {
+    font-size: 2.5rem;
+    color: #b8860b;
+    margin-bottom: 10px;
+  }
+  
+
+  
+@media (max-width: 991px) {
+    .benefits-container {
+      gap: 30px; 
+    }
+  
+    .benefit-item {
+      width: 45%; 
+    }
+  
+    .benefit-card {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .benefits-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .benefit-item {
+      width: 100%;
+    }
+  
+    .benefit-card {
+      width: 90%;
+      margin: auto;
+    }
+  
+    .circle {
+      width: 80px;
+      height: 80px;
+      font-size: 1rem;
+    }
+  
+    .decorative-line {
+      height: 30px; 
+    }
+  }
+  

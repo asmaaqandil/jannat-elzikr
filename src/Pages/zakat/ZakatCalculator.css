@@ -1,0 +1,82 @@
+.zakat-page {
+    background: #ecc5ae;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 700px;
+    margin:50px auto;
+ 
+  }
+  
+ 
+  .zakat-page h1 {
+    color: #00796b;
+    font-size: 26px;
+  }
+  
+
+  .zakat-page select,
+  .zakat-page input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #00796b;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* تحسين مظهر الزر */
+  .zakat-page button {
+    background: #00796b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%; 
+  }
+  
+ 
+  .zakat-page button:hover {
+    background: #005f56;
+  }
+  
+
+  .zakat-result {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #e8f5e9;
+    border: 1px solid #00796b;
+  }
+  
+
+  @media (max-width: 600px) {
+    .zakat-page {
+      padding: 20px; 
+    }
+  
+    .zakat-page h1 {
+      font-size: 22px; 
+    }
+  
+    .zakat-page select,
+    .zakat-page input {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .zakat-page button {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .zakat-result {
+      font-size: 16px;
+    }
+  }
+  
